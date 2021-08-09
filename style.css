@@ -479,6 +479,7 @@ html {
 
 .best {
 	background: url(img/best-bg.png) no-repeat;
+	background-size: cover;
 	position: relative;
 	padding-bottom: 20%;
 	height: 520px;
@@ -496,7 +497,9 @@ html {
 	display: flex;
 	position: absolute;
 	top: 66.5%;
-	height: 370px;
+	left: 50%;
+    	height: 370px;
+    	transform: translateX(-50%);
 }
 
 .best-card:first-of-type {
